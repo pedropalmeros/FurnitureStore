@@ -1,6 +1,7 @@
 
 html {
     box-sizing: border-box;
+    font-size: 62.5%; /* 1REM = 10px*/  
 }
 *,*:before,*:after{
     box-sizing: inherit;
@@ -8,6 +9,8 @@ html {
 
 body{
     font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
 }
 /** TODO: Globales **/
 a{
@@ -15,13 +18,25 @@ a{
     text-decoration: none;
 }
 
-h1,h2, h3 {
+h1,
+h2, 
+h3 {
     font-family: 'Playfair Display', serif;
+    margin: 0 0 5rem 0;
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3rem;
 }
 
 .contenedor{
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 120rem;
 }
 
 .horizontal-rule-style{
@@ -36,8 +51,7 @@ img {
 
 /** TODO: Header y Navegación **/
 .nombre-sitio{
-    padding-bottom: 50px;
-    padding-top: 50px;
+    margin-top: 5rem;
     text-align: center;
 }
 
@@ -54,33 +68,35 @@ img {
     border-top-style: solid;
     border-width: 1px;
     */
-    padding: 20px 0;
+    padding: 2rem 0;
     
     
 }
 
 .hero{
     background-image: url("../img/principal.jpg");
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 550px;
+    height: 55rem;
 }
 
 /** TODO: Listado de categorías **/
 .categorias {
+    padding-top: 5rem;
     text-align: center;
 
 }
 .listado-categorias{
     display: grid;
-    gap: 20px;
+    gap: 2rem;
     grid-template-columns: repeat(3, 1fr);  
 }
 
 .categoria a{
     display: block;
-    font-size: 20px;
-    padding: 20px;
+    font-size: 2rem;
+    padding: 2rem;
     text-align: center;
 }
 
