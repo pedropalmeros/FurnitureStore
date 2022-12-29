@@ -7,13 +7,13 @@ html {
 }
 /** TODO: Globales **/
 a{
-    text-decoration: none;
     color: #000;
+    text-decoration: none;
 }
 
 .contenedor{
-    max-width: 1200px;
     margin: 0 auto;
+    max-width: 1200px;
 }
 
 .horizontal-rule-style{
@@ -21,11 +21,15 @@ a{
     margin: 0 0;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
 
 /** TODO: Header y Navegación **/
 .nombre-sitio{
-    padding-top: 50px;
     padding-bottom: 50px;
+    padding-top: 50px;
     text-align: center;
 }
 
@@ -34,20 +38,46 @@ a{
 }
 
 .nav-principal{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
     /*
     border-color: #e1e1e1;
     border-top-style: solid;
     border-width: 1px;
     */
     padding: 20px 0;
+    
+    
 }
 
 .hero{
     background-image: url("../img/principal.jpg");
-    height: 550px;
     background-repeat: no-repeat;
     background-size: cover;
-
+    height: 550px;
 }
 
+/** TODO: Listado de categorías **/
+.categorias {
+    text-align: center;
 
+}
+.listado-categorias{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);  
+}
+
+.categoria a{
+    display: block;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.categoria a:hover{
+    background-color: #037bc0;
+    border-bottom-right-radius: 10px;
+    color: #FFF;
+}
