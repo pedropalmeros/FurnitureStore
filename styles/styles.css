@@ -105,3 +105,13 @@ img {
     border-bottom-right-radius: 10px;
     color: #FFF;
 }
+
+/** TODO: Sobre-nosotros**/
+.sobre-nosotros{
+    background-image: linear-gradient(to right,transparent 50%, #037bc0 50%, #037bc0 100%),url(../img/nosotros.jpg);
+    background-position: left center; /*x-left y-center*/
+    background-repeat: no-repeat;
+    background-size: 100%, 120rem;
+    padding: 10rem 0;/*linear-gradient size , image size*/
+}
+
