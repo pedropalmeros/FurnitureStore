@@ -115,3 +115,14 @@ img {
     padding: 10rem 0;/*linear-gradient size , image size*/
 }
 
+.sobre-nosotros-grid{
+    column-gap: 10rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.texto-nosotros{
+    color: #fff;
+    grid-column: 2/3
+}
+
