@@ -289,3 +289,21 @@ img {
     margin: 0 auto;
     width: 60rem;
 }
+
+/** TODO: Galería **/
+.galeria{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3,1fr);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.galeria img{
+    height: 40rem;
+    object-fit: cover;
+    width: 40rem;
+}
+
+/** TODO: Contacto **/
