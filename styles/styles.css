@@ -53,6 +53,10 @@ img {
     text-align: center;
 }
 
+.max-width-30{
+    max-width: 30rem;
+}
+
 
 .btn{
     background-color: #8cbc00;
@@ -252,3 +256,32 @@ img {
     flex-direction: column;
     justify-content: center;
 }
+
+/** TODO: BLOG **/
+.contenedor-blog{
+    column-gap: 4rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.entrada{
+    border-bottom: 2px solid #e1e1e1;
+    margin-bottom: 2rem;
+    padding-bottom: 4rem;
+}
+.entrada:last-of-type{
+    border:none;
+}
+
+.entrada-meta{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.entrada-meta p{
+    font-weight: 700;
+}
+.entrada-meta span{
+    color: #037bc0
+}
+
