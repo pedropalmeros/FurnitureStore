@@ -148,6 +148,7 @@ img {
 
 /** TODO: Listado de productos **/
 .contenido-principal{
+    margin-bottom: 10rem;
     padding-top: 5rem;
 }
 
@@ -219,4 +220,21 @@ img {
     font-weight: 900;
 }
 
+/** TODO: Footer **/
+.site-footer{
+    margin-top: 5rem;
+}
 
+.nav-contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.nav-contenedor nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.site-footer p{
+    margin-top: 5rem;
+}
