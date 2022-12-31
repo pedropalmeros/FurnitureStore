@@ -238,3 +238,17 @@ img {
 .site-footer p{
     margin-top: 5rem;
 }
+
+/** Nosotros page**/
+.contenido-nosotros{
+    column-gap: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
+.informacion-nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
