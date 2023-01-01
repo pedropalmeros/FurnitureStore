@@ -60,6 +60,7 @@ img {
 
 .btn{
     background-color: #8cbc00;
+    border: none;
     color: #FFF;
     display:block;
     font-weight: 900;
@@ -70,6 +71,7 @@ img {
 
 .btn:hover{
     background-color: #769c02;
+    cursor: pointer;
 }
 
 
@@ -306,4 +308,42 @@ img {
     width: 40rem;
 }
 
-/** TODO: Contacto **/
+/** TODO: Formulario **/
+.formulario{
+    margin: 0 auto;
+    max-width: 60rem;
+}
+
+.formulario fieldset{
+    border: 1px solid black;
+    margin-bottom: 2rem;
+}
+
+.formulario legend{
+    background-color: #005485;
+    color: #FFF;
+    font-weight: 900;
+    margin-bottom: 4rem;
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.campos{
+    display: flex;
+    margin-bottom: 2rem;
+
+}
+
+.campos label{
+    flex-basis: 10rem;
+}
+
+.campos input:not([type="radio"]),
+.campos textarea,
+.campos select {
+    border: 1px solid #e1e1e1; 
+    flex: 1;
+    padding: 1rem;
+}
