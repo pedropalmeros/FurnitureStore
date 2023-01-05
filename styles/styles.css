@@ -315,10 +315,33 @@ img {
     margin-top: 5rem;
 }
 
-.nav-contenedor{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+.nav-contenedor a{
+    display: block;
+    text-align: center;
 }
+
+.nav-contenedor h3{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.nav-contenedor div{
+    margin-bottom: 4rem;
+}
+@media (min-width: 768px) {
+    .nav-contenedor{
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .nav-contenedor a,
+    .nav-contenedor h3{
+        text-align: start;        
+    }
+}
+
+
+
 
 .nav-contenedor nav{
     display: flex;
