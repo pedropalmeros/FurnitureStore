@@ -340,9 +340,6 @@ img {
     }
 }
 
-
-
-
 .nav-contenedor nav{
     display: flex;
     flex-direction: column;
@@ -358,12 +355,18 @@ img {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    padding: 5rem;
 }
 
 .informacion-nosotros{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+@media (min-width: 768px) {
+    .informacion-nosotros{
+        padding: 0;
+    }
 }
 
 /** TODO: BLOG **/
