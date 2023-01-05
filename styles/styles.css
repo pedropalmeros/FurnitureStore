@@ -99,6 +99,11 @@ img {
 
 
 /** TODO: Header y Navegación **/
+.technologies{
+    background-color: #000;
+    height: 600px;
+}
+
 .nombre-sitio{
     margin-top: 5rem;
     text-align: center;
